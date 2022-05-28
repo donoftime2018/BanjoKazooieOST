@@ -1,5 +1,5 @@
 li {
-	font-family: 'Gill Sans MT';
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
 	text-align: center;
 	font-weight: bold;
 	-webkit-text-stroke-width: 2px;
@@ -13,9 +13,14 @@ li {
 	padding: 10px;
 }
 
+h2 {
+	text-shadow: inherit;
+	font-weight: inherit;
+}
+
 ol  {
-	
-	padding-left: 1.8em;
+	list-style-type: none;
+	/* padding-left: 1.8em; */
 }
 
 ul {
@@ -28,14 +33,14 @@ body {
 }
 
 p {
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	text-align:center;
-	font-weight:bold;
-	-webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-	text-transform: uppercase;
-	text-shadow: black 2px;
-	margin-right: 22px;
+	font-family: inherit;
+	text-align:inherit;
+	font-weight:inherit;
+	-webkit-text-stroke-width: inherit;
+    -webkit-text-stroke-color:inherit;
+	text-transform: inherit;
+	text-shadow: inherit;
+	margin-right: inherit;
 }
 
 #level1 {
