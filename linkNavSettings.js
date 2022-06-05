@@ -1,7 +1,7 @@
 
 
 function linkNav() {
-    let hideNav = document.getElementById("hideNav");
+    let hideNav = document.querySelector("#hideNav");
     let nav = document.getElementById("linknav");
 
     if (nav.hidden === false)
