@@ -6,11 +6,11 @@ li {
     -webkit-text-stroke-color: black;
 	text-transform: uppercase;
 	text-shadow: black 2px;
-	border-style: dotted;
+	border-style: solid;
 	background-color: rgb(255, 217, 2, 0.6);
 	margin-bottom: 18px;
 	margin-right: 22px;
-	padding: 10px;
+	padding: 5px;
 }
 
 h2 {
@@ -30,7 +30,6 @@ ul {
 
 body {
 	background-image: linear-gradient(to bottom, blue, red);
-	overflow-x: scroll;
 }
 
 p {
@@ -165,6 +164,7 @@ a:link {
 	  color:blue;
 	  background-color:red;
 	  border-color: black;
+	  font-size: 18px;
   }
 
   .desc-btn {

@@ -6,11 +6,14 @@ li {
     -webkit-text-stroke-color: black;
 	text-transform: uppercase;
 	text-shadow: black 2px;
-	border-style: dotted;
+	border-style: solid;
 	background-color: rgb(255, 217, 2, 0.6);
+	border-bottom-color: inherit;
+	border-top-color: inherit;
+	border-color: inherit;
 	margin-bottom: 18px;
 	margin-right: 22px;
-	padding: 10px;
+	padding: 5px;
 }
 
 h2 {
@@ -76,6 +79,9 @@ p {
 #level7 {
     font-size:33px;
     color: red;
+	/* border-top-color: red; */
+	border-bottom-color: aqua;
+	border-top-color: aqua;
 }
 
 #level7_ice{
@@ -165,6 +171,7 @@ a:link {
 	  color:red;
 	  background-color:blue;
 	  border-color: black;
+	  font-size: 18px;
   }
 
   .desc-btn {
