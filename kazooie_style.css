@@ -30,6 +30,11 @@ ul {
 
 body {
 	background-image: linear-gradient(to bottom, blue, red);
+	cursor: url('jiggy.png'), auto;
+}
+
+html {
+	cursor: url('jiggy.png'), auto;
 }
 
 p {
@@ -95,6 +100,7 @@ a{
 	-webkit-text-stroke-width: inherit;
 	-webkit-text-stroke-color: inherit;
 	margin-right: inherit;
+	cursor: url('jiggy.png'), auto;
 }
 
 a:link {
@@ -165,6 +171,7 @@ a:link {
 	  background-color:red;
 	  border-color: black;
 	  font-size: 18px;
+	  cursor: url('jiggy.png'), auto;
   }
 
   .desc-btn {

@@ -1,5 +1,3 @@
-
-
 function linkNav() {
     let hideNav = document.querySelector("#hideNav");
     let nav = document.getElementById("linknav");
