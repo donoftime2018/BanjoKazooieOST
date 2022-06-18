@@ -1,13 +1,13 @@
 li {
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+	font-family: inherit;
 	text-align: center;
 	font-weight: bold;
 	-webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color:black;
 	text-transform: uppercase;
 	text-shadow: black 2px;
 	border-style: solid;
-	background-color: rgb(255, 217, 2, 0.6);
+	/* background-color: rgb(255, 217, 2, 0.6); */
 	border-bottom-color: inherit;
 	border-top-color: inherit;
 	border-color: inherit;
@@ -21,19 +21,29 @@ h2 {
 	font-weight: inherit;
 }
 
-ol  {
+ol li {
 	list-style-type: none;
+	background-color: rgb(0, 0, 255, 0.6);
+	border-width: 4px;
 	/* padding-left: 1.8em; */
 }
 
-ul {
+@font-face {
+	font-family: Lithos;
+	src: url("Lithos-Black Regular.ttf");
+}
+
+ul li {
 	list-style-type: none;
-	/* padding: 10px; */
+	background-color: rgb(255, 0, 0, 0.5);
+	border-width: 2px;
 }
 
 body {
-	background-image: linear-gradient(to bottom,red, blue);
+	background-image: url("tooielogo.png");
+	background-repeat: round;
 	cursor: url("jiggy.png"), auto;
+	font-family: Lithos;
 }
 
 p {
@@ -63,7 +73,7 @@ p {
 }
 
 #level4 {
-	color: #2B65EC;
+	color: #87CEEB;
 	font-size: 33px;
 }
 
@@ -139,7 +149,7 @@ a:link {
 
   #banjokazooie {
 	font-size: 33px;
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family:inherit;
 	color: rgb(255, 217, 2);
 	text-align: center;
 	text-shadow: black 2px;
@@ -147,14 +157,14 @@ a:link {
     -webkit-text-stroke-color: black;
 	text-transform: uppercase;
 	font-weight: bold;
-	 background-image: linear-gradient(to right,blue, red);
+	 background-image: linear-gradient(to right, rgba(0,0,255,0.6), rgba(255,0,0,0.6));
 	border-style: solid;
 	border-color:rgb(255, 217, 2);
   }
 
   
   #linknav {
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: inherit;
 	text-align: right;
 	font-weight: bold;
 	-webkit-text-stroke-width: 2px;
@@ -165,7 +175,7 @@ a:link {
 	font-size: 27px;
 	position: fixed;
 	right: 4px;
-	background-color: rgb(255, 255, 255, 0.4);
+	background-color: rgb(255, 255, 255, 0.5);
 	margin-right: 3px;
   }
 
@@ -175,6 +185,7 @@ a:link {
 	  border-color: black;
 	  font-size: 18px;
 	  cursor: url("jiggy.png"), auto;
+	  font-family: inherit;
   }
 
   .desc-btn {
